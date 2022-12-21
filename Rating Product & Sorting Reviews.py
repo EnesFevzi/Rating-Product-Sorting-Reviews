@@ -53,7 +53,7 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
 
 
-df = pd.read_csv("Modül_3_Ölçümleme_Problemleri/datasets/amazon_review.csv")
+df = pd.read_csv("/datasets/review.csv")
 df["overall"].mean()
 
 df.head()
